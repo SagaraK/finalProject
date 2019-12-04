@@ -3,7 +3,6 @@ let icons = [];
 let ogWidth;
 let ogHeight;
 let button;
-
 function preload(){
   for(let i = 0; i <= 12; i++){
      icons[i] = loadImage(`images/image_${i}.png`);
@@ -55,6 +54,7 @@ function draw() {
   }
 }
 
+
 function buttonPressed(){
-  createA('finalProject/pagetwo.html','this is a link');
+  createA('https://sagarak.github.io/finalProject/finalProject/pagetwo.html');
 }

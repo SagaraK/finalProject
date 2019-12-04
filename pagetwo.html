@@ -1,36 +1,25 @@
-<!DOCTYPE html><html><head>
-    <script src="p5.js"></script>
-    <script src="p5.dom.min.js"></script>
-    <script src="p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-    <!-- Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
-
-    <!-- Firechat -->
-    <link rel="stylesheet" href="https://cdn.firebase.com/libs/firechat/3.0.1/firechat.min.css" />
-    <script src="https://cdn.firebase.com/libs/firechat/3.0.1/firechat.min.js"></script>
-    <script>
-    function initChat(user) {
-    // Get a Firebase Database ref
-    var chatRef = firebase.database().ref("chat");
-
-    // Create a Firechat instance
-    var chat = new FirechatUI(chatRef, document.getElementById("firechat-wrapper"));
-
-    // Set the Firechat user
-    chat.setUser(user.uid, user.displayName);
-  }
-</script>
-
-<div id="firechat-wrapper"></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <script src="sketch.js"></script>
+    <div class="container2">
+    <form action = https://sagarak.github.io/finalProject/.html>
+      What are some changes you want to see to help the environment?:
+      <input type="text" size="12" id="un" /><br/></br>
+      <input type="submit" onclick="saveUn();" />
+      <script>
+      var username;
+      function saveUn() {
+        username = document.getElementById('un').value;
+        alert(username);
+        }
+      </script>
+    </form>
+  </div>
 
-
-</body></html>
+  </body>
+</html>
