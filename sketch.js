@@ -56,5 +56,5 @@ function draw() {
 
 
 function buttonPressed(){
-  createA('https://sagarak.github.io/finalProject/finalProject/pagetwo.html');
+  createA('https://sagarak.github.io/finalProject/finalProject/pagetwo.html', 'continue');
 }
