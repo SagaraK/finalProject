@@ -5,3 +5,9 @@ html, body {
 canvas {
   display: block;
 }
+
+.buttonStyle{
+  padding:10px;
+  color:white;
+  background-color: black;
+}
