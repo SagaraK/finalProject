@@ -56,5 +56,6 @@ function draw() {
 
 
 function buttonPressed(){
-  createA('https://sagarak.github.io/finalProject/finalProject/pagetwo.html', 'continue');
+  //window.location.href = <a href = "pagetwo.html" target="_self">continue</a>
+  createA('pagetwo.html', 'continue');
 }
